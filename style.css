@@ -71,7 +71,7 @@ header .navbar li a:hover{
 .banniere{
     position: relative;
     width: 100%;
-    min-height: 150vh;
+    min-height: 140vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -750,6 +750,7 @@ header,
 header.sticky{
     padding: 0;
 }
+
 .deca{
     width: 80px;
 }
@@ -760,7 +761,7 @@ header .navbar li{
 header .navbar li a {
     text-decoration: none;
     color: #111;
-    font-size: 1.6em;
+    font-size: 1.6rem;
     font-weight: 300;
 }
 .nous{
@@ -820,15 +821,18 @@ header .navbar.active{
 header.sticky .menuToggle{
     filter: invert(1);
 }
+.menu .menuToggle{
+    color: #000;
+}
+
 .banniere{
     position: relative;
     width: 100%;
-    min-height:50vh;
+    min-height:70vh;
     display: flex;
-    justify-content: center;
-    align-items:center;
+    justify-content:center;
+    align-items:flex-start;
     background-image:url(Essaie.PNG);
-    background-size: cover;
 }
 .banniere .contenu{
     top: -80%;
@@ -839,9 +843,7 @@ header.sticky .menuToggle{
 .banniere .contenu p{
     font-size: 12px!important;
 }
-.btn{
-    color: #000;
-}
+
 .row .col50 img{
     margin-left: 18%;
 }
@@ -870,8 +872,6 @@ header.sticky .menuToggle{
     flex-direction: column;
 }
 
-
-
 .temoignage h2{
     font-size: 2em;
     text-align: center;
@@ -899,7 +899,7 @@ text-align: center;
         flex-direction: column;
     }
     .slider{
-        width: 350px;
+        width: 300px;
         height: 200px;
         overflow: hidden;
     }
@@ -916,7 +916,7 @@ text-align: center;
         width: 200px;
     }
     .btn{
-      font-size: 12px;  
+      font-size: 12px;
     }
     @keyframes glisse{
         0%{
@@ -1069,3 +1069,4 @@ text-align: center;
         text-align: center;
     }
 }
+
