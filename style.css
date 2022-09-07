@@ -621,32 +621,15 @@ header.sticky li a:hover{
         transform: translateX(0);
     }
     
-    10%{
-        transform: translateX(-300px);
-    }
-    
     33%{
         transform: translateX(-500px);
     }
-    43%{
-        transform: translateX(-500px);
-    }
-    
-    66%{
-        transform: translateX(-1000px);
-    }  
-    76%{
-        transform: translateX(-1100px);
-    }
-    86%{
-        transform: translateX(-1300px);
-    }
-    96%{
-        transform: translateX(-1350px);
-    }
 
+    66%{
+        transform: translateX(-1200px);
+    }  
     100%{
-        transform: translateX(-500px);
+        transform: translateX(0);
     }
 }
 .sliders{
@@ -895,53 +878,37 @@ text-align: center;
         flex-direction: column;
     }
     .slider{
-        width: 500px;
-        height: 400px;
+        width: 450px;
+        height: 200px;
         overflow: hidden;
     }
     .slides{
-        width: calc(700px*7);
+        width: calc(300px*5);
         animation: glisse 10s infinite;
         margin-left: 5px;
     }
     .slide{
         float:left;
-        margin: 5px;
+        margin: 2px;
     }
     .slider .slides .slide img{
-        width: 500px;
+        width: 200px;
     }
     @keyframes glisse{
         0%{
             transform: translateX(0);
         }
         
-        10%{
+        33%{
             transform: translateX(-300px);
         }
-        
-        33%{
-            transform: translateX(-500px);
-        }
-        43%{
-            transform: translateX(-500px);
-        }
-        
+
         66%{
-            transform: translateX(-1000px);
+            transform: translateX(-600px);
         }  
-        76%{
-            transform: translateX(-1100px);
-        }
-        86%{
-            transform: translateX(-1300px);
-        }
-        96%{
-            transform: translateX(-1350px);
-        }
 
         100%{
-            transform: translateX(-500px);
+            transform: translateX(0);
         }
     }
     /* contact */
@@ -961,7 +928,7 @@ text-align: center;
     .sliders .slidesss .slidess img{
         width: 200px;
     }
-    @keyframes glisse{
+    @keyframes glisses{
         0%{
             transform: translateX(0);
         }
