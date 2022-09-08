@@ -829,7 +829,7 @@ header.sticky .menuToggle{
 .banniere{
     position: relative;
     width: 100%;
-    min-height:55vh;
+    min-height:60vh;
     display: flex;
     justify-content:center;
     align-items:flex-start;
