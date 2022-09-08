@@ -833,8 +833,8 @@ header.sticky .menuToggle{
     display: flex;
     justify-content:center;
     align-items:flex-start;
-    background-image:url(essaie1.jpg);
-}
+    background-image: url(./essaie1.jpg);
+    }
 /* .banniere .contenu{
     top: -80%;
 } */
