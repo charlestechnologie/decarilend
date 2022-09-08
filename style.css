@@ -801,7 +801,7 @@ header .navbar.active{
 
 .menuToggle{
     position: relative;
-    width: 500px;
+    width: 470px;
     height: 40px;
     background-image: url(menu.png);
     background-repeat: no-repeat;
@@ -829,7 +829,7 @@ header.sticky .menuToggle{
 .banniere{
     position: relative;
     width: 100%;
-    min-height:55vh;
+    min-height:75vh;
     display: flex;
     justify-content:center;
     align-items:flex-start;
@@ -1045,7 +1045,7 @@ text-align: center;
     margin-top: 50px;
     justify-content: center;
     align-items: center;
-    margin-left: 10%;
+    margin-left: 5%;
 }
 }
 @media screen and (max-width:560px){
