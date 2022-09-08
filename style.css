@@ -835,9 +835,9 @@ header.sticky .menuToggle{
     align-items:flex-start;
     background-image:url(Essaie.PNG);
 }
-.banniere .contenu{
+/* .banniere .contenu{
     top: -80%;
-}
+} */
 .banniere .contenu h2{
     font-size: 4em;
 }
