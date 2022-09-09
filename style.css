@@ -841,7 +841,7 @@ header.sticky .menuToggle{
     font-size: 4em;
 }
 .banniere .contenu p{
-    font-size: 14px!important;
+    font-size: 15px!important;
 }
 
 .row .col50 img{
@@ -916,7 +916,7 @@ text-align: center;
         width: 200px;
     }
     .btn{
-      font-size: 12px;
+      font-size: 14px;
     }
     @keyframes glisse{
         0%{
@@ -1037,14 +1037,7 @@ text-align: center;
     }
 } */
 .contactform{
-    padding: 75px 50px;
-    background: #fff;
-    box-shadow: 5px 15px 50px rgba(0,0,0, 0.8);
-    max-width: 500px;
-    margin-top: 50px;
-    justify-content: center;
-    align-items: center;
-    margin-left: 5%;
+    margin-left: 0;
 }
 }
 @media screen and (max-width:560px){
