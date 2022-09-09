@@ -839,10 +839,12 @@ header.sticky .menuToggle{
 } */
 .banniere .contenu h2{
     font-size: 4em;
+    color: #000!important;
 }
 .banniere .contenu p{
-    font-size: 15px!important;
+    font-size: 16px!important;
     text-transform: capitalize;
+    color: #000;
 }
 
 .row .col50 img{
