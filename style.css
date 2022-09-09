@@ -844,8 +844,8 @@ header.sticky .menuToggle{
     font-size: 4em;
 }
 .banniere .contenu p{
-    font-size: 14px!important;
-    text-transform: capitalize;
+    font-size: 15px!important;
+    text-transform: capitalize!important;
 }
 
 .row .col50 img{
