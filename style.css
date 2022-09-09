@@ -801,14 +801,14 @@ header .navbar.active{
 
 .menuToggle{
     position: relative;
-    width: 470px;
+    width: 40px;
     height: 40px;
     background-image: url(menu.png);
     background-repeat: no-repeat;
     background-position: center;
     cursor: pointer;
     background-size: 30px;
-    left:30%;
+    left:25%;
 }
 
 .menuToggle.active
@@ -829,7 +829,7 @@ header.sticky .menuToggle{
 .banniere{
     position: relative;
     width: 100%;
-    min-height:40vh;
+    min-height:50vh;
     display: flex;
     justify-content:center;
     align-items:flex-start;
