@@ -2,7 +2,6 @@
 *{
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
     font-family: 'poppins', sans-serif;
     scroll-behavior: smooth;
 }
@@ -829,7 +828,7 @@ header.sticky .menuToggle{
 .banniere{
     position: relative;
     width: 100%;
-    min-height:50vh;
+    min-height:55vh;
     display: flex;
     justify-content:center;
     align-items:flex-start;
